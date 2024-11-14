@@ -13,7 +13,7 @@ module.exports = {
       user: DEPLOY_USER,
       host: DEPLOY_HOST,
       ref: DEPLOY_REF,
-      repo: 'https://github.com/yandex-praktikum/nodejs-mesto-frontend.git',
+      repo: 'https://github.com/EgoBrainProgrammer/nodejs-mesto-frontend.git',
       path: DEPLOY_PATH,
       'post-deploy': 'npm i && npm run build',
     },
